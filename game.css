@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url('Images/3858.jpg');
+    background-size: cover;
+    /* background-size: contain; */
+    height:92vh;
+    /* width:100vh; */
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    
+}
+
+.header{
+    /* font-size: 150px; */
+    text-align: center;
+}
+
+#title{
+    
+    font-size:200px;
+    
+}
+
+#score{
+    font-size: 150px;
+    padding-bottom:200px;
+    
+}
+
+.board{
+    margin:auto; /*centre box horizontally*/
+    height:2000px;
+    width:2000px;
+    border: 2px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:100px; 
+    cursor:pointer;
+    /* pointer-events:none; */
+
+}
+
+.hole{
+    background-color:rgb(63, 47, 36);
+    border-radius:50%;
+    /* box-shadow:5px 10px 12px */
+    box-shadow:inset 5px 8px 30px rgb(12, 25, 12), /*for outer shadow*/
+               inset -5px 100px 12px rgb(115, 136, 58);/*brown wala ka inside par green wala  */
+    position:relative;
+    overflow:hidden
+               
+
+}
+
+.totoro{
+    width:800px;
+    height: 500px;
+}
+
+.hole .totoro{
+    width:70%;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:0;
+    animation: rise 0.3s ease-out;
+
+}
+
+@keyframes rise{
+    0%{
+        transform:translateX(-50%) translateY(-100%);
+
+    }
+
+    100%{
+        transform:translateX(-50%) translateY(0);
+    }
+}

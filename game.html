@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css"> <!--linking of css file -->
+</head>
+<body>
+    <div class="header">
+        <p id="title">Whack a Kaonashi</p>
+        <p id="score">Score:<span>00</span></p>
+    </div>
+
+    <div class="board">
+        <div class="hole">
+            <!-- <img src="Images/newtotoro3.png" alt="totoro" class="totoro"> -->
+        </div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+    </div>
+    <div class="cursor"> </div>
+    <div id="board"></div>
+
+    <h2 id="timer">Time Left: 60s</h2>
+
+    <!-- Ending Screen -->
+<div id="end-screen" style="display: none;">
+    <h1>Game Over!</h1>
+    <p id="end-message"></p>
+    <button onclick="restartGame()">Restart</button>
+</div>
+
+   
+   
+
+    
+    
+    
+    <script src="script.js"></script> <!--linking of js file-->
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url("Images/DALL·E 2025-03-28 23.34.12 - A minimalistic Whack-a-Mole game background in landscape format with desaturated colors. Two cartoon moles are popping out from their holes on a woode.webp");
+    background-size: cover;
+    /* background-size: contain; */
+    height:100vh;
+    /* width:100vh; */
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+
+.header{
+    text-align:center
+
+}
+
+
+#title{
+    font-size:200px;
+}
+
+a{
+     text-decoration: none;   /*removes blue line from the text */
+}
+
+.btn{
+
+   background-color: rgb(240, 170, 21);
+   width: 900px;  /* Adjust width */
+   height: 360px;  /*Adjust height */
+   font-size: 100px; /* Increase text size */
+   font-family:'Times New Roman', Times, serif;
+   display:block; 
+   margin:auto;
+   margin-top:500px;  
+   padding: 15px 40px;
+   border:none;
+   box-shadow: inset 8px px 25px rgb(147, 96, 28),
+               -10px 10px 15px rgb(180, 132, 56);
+   cursor:pointer;
+   border-radius:30px;
+   position:relative
+  
+  
+}
