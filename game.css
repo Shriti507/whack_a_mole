@@ -16,6 +16,7 @@ body{
 
 .header{
     /* font-size: 150px; */
+    /* console.log('Styles loaded'); */
     text-align: center;
 }
 
